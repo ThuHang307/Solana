@@ -8,10 +8,10 @@ const nextConfig = {
     };
     return config;
   },
-  experimental: {
-    esmExternals: false,
-    pagesDir: 'src/pages'
-  }
+  // experimental: {
+  //  // esmExternals: false,
+  // //  pagesDir: 'src/pages'
+  // }
 };
 
 module.exports = nextConfig;
